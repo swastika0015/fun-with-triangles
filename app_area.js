@@ -7,9 +7,9 @@ btnCheck.addEventListener("click", function isTriangle(){
     h1 = parseInt(h.value)
     b1 = parseInt(b.value)
 
-    hypo = Math.sqrt((Math.pow(h1,2)+ (Math.pow(b1,2))));
-    console.log(hypo)
-    showMessage("Hypotenuse = "+ hypo)
+    area = 0.5 * h1 * b1 ;
+    console.log(area)
+    showMessage("Area = " + area)
 
 });
 
