@@ -1,11 +1,18 @@
-const A1 = document.querySelector("#angle1");
-const A2 = document.querySelector("#angle2");
-const A3 = document.querySelector("#angle3");
+const h = document.querySelector("#height");
+const b = document.querySelector("#base");
 const btnCheck = document.querySelector("#btn");
-const message = document.querySelector("#show-msg")
-
+const message = document.querySelector("#show-msg");
+let hypo = 0;
 btnCheck.addEventListener("click", function isTriangle(){
-    a1 = parseInt(A1.value)
-    a2 = parseInt(A2.value)
-    a3 = parseInt(A3.value)
+    h1 = parseInt(h.value)
+    b1 = parseInt(b.value)
+
+    hypo = Math.sqrt((Math.pow(h1,2)+ (Math.pow(b1,2))));
+    console.log(hypo)
+    showMessage(hypo + "Yesss! These angles form a Triangle😀")
+
 });
+
+showMessage = (msg) => {
+    message.innerText = msg 
+}
