@@ -64,6 +64,17 @@ label{
   
 }
 
+.container-quiz{
+    margin: auto;
+    padding: 2rem;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.button-quiz{
+    margin: 2px;
+}
+
 h3 {
     color: rgb(192, 166, 19);
     text-align: center;

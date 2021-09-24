@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navigation">
+        <h1 class="nav-brand"> Fun With Triangles</h1>
+        <ul class="nav-pills">
+            <li class="list-item-inline">
+                <a class="link primary-link" href="angles.html">
+                    Is Triangle
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link primary-link" href="hypo.html">
+                    Hypotenuse
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link primary-link" href="area.html">
+                    Area
+                </a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link primary-link" href="quiz.html">
+                        Quiz
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <form id="quiz"></form>
+    <div class="container-quiz">
+
+        <p>What is the third angle for the triangle where angle1 = 60° and angle2 = 60°?</p>
+        <label><input name="Q1" type="radio" value="90°">90°</label>
+        <label><input name="Q1" type="radio" value="45°">45°</label>
+        <label><input name="Q1" type="radio" value="60°">60°</label>
+
+        <p>Let three angles of a triangle are 60, 30, 90. Which triangle it is?</p>
+        <label><input name="Q2" type="radio" value="Equilateral Triangle">Equilateral Triangle</label>
+        <label><input name="Q2" type="radio" value="Scalene Triangle">Scalene Triangle</label>
+        <label><input name="Q2" type="radio" value="Right Angled Triangle">Right Angled Triangle</label>
+
+        <p>Sum of three angles in a triangle is</p>
+        <label><input name="Q3" type="radio"value="180°">180°</label>
+        <label><input name="Q3" type="radio" value="90°">90°</label>
+        <label><input name="Q3" type="radio" value="360°">360°</label>
+
+        <p>The perimeter of equilateral triangle with sides a, b, c is</p>
+        <label><input name="Q4" type="radio">a+2b+c</label>
+        <label><input name="Q4" type="radio">3a</label>
+        <label><input name="Q4" type="radio">3abc</label>
+
+        <div class="button-quiz">
+            <button id="btn" style="padding: 0.5rem; width: 11%; margin-top: 1rem;">Submit</button>
+        </div>
+        
+        
+        <h3 id="show-msg" style="text-align: left; padding: 0rem; color: white;"></h3>
+
+    </div>
+
+    <footer>
+        Made by Swastika
+    </footer>
+
+    <script src="app_quiz.js"></script>  
+</body>
+</html>
