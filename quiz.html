@@ -34,9 +34,8 @@
         </ul>
     </nav>
 
-    <form id="quiz"></form>
     <div class="container-quiz">
-
+        <form id="quiz">
         <p>What is the third angle for the triangle where angle1 = 60° and angle2 = 60°?</p>
         <label><input name="Q1" type="radio" value="90°">90°</label>
         <label><input name="Q1" type="radio" value="45°">45°</label>
@@ -53,16 +52,17 @@
         <label><input name="Q3" type="radio" value="360°">360°</label>
 
         <p>The perimeter of equilateral triangle with sides a, b, c is</p>
-        <label><input name="Q4" type="radio">a+2b+c</label>
-        <label><input name="Q4" type="radio">3a</label>
-        <label><input name="Q4" type="radio">3abc</label>
+        <label><input name="Q4" type="radio" value="a+2b+c">a+2b+c</label>
+        <label><input name="Q4" type="radio" value="3a">3a</label>
+        <label><input name="Q4" type="radio" value="3abc">3abc</label>
 
-        <div class="button-quiz">
-            <button id="btn" style="padding: 0.5rem; width: 11%; margin-top: 1rem;">Submit</button>
-        </div>
-        
-        
-        <h3 id="show-msg" style="text-align: left; padding: 0rem; color: white;"></h3>
+    </form>
+
+    <div class="button-quiz">
+        <button id="btn" style="padding: 0.5rem; width: max-content; margin-top: 1rem;">Submit</button>
+    </div>
+
+    <div id="show-msg" style="text-align: left; padding: 0rem; color: white;"></div>
 
     </div>
 
